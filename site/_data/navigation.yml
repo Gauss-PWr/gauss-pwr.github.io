@@ -1,0 +1,13 @@
+main:
+  - title: "Strona główna"
+    url: /
+  - title: "O nas"
+    url: /about/
+  - title: "Aktualności"
+    url: /blog/
+  - title: "Zarząd"
+    url: /board/
+  - title: "Linki"
+    url: /links/
+  - title: "Kontakt"
+    url: /contact/
