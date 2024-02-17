@@ -3,7 +3,6 @@ title: "Zarząd"
 permalink: /board/
 ---
 #### Opiekun koła:
-
 *   [dr inż. Andrzej Giniewicz](http://www.im.pwr.wroc.pl/~giniew/)
 
 #### Zarząd koła:
@@ -14,4 +13,4 @@ permalink: /board/
 
 #### Regulamin koła:
 
-[Regulamin Gaussa od roku akademickiego 2016/2017](http://gauss.im.pwr.wroc.pl/wp-content/uploads/2017/03/regulamin_gauss.pdf)
+[Regulamin Gaussa](http://gauss.im.pwr.wroc.pl/wp-content/uploads/2017/03/regulamin_gauss.pdf)

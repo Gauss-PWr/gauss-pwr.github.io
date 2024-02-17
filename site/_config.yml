@@ -1,27 +1,7 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Gauss
-email: your-email@example.com
+title: Koło Naukowe Statystyki Matematycznej Gauss
+email: gauss@pwr.wroc.pl
 description: >- # this means to ignore newlines until "baseurl:"
-  Koło naukowe PWr
+  Koło Naukowe PWr
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gauss.im.pwr.wroc.pl/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -36,6 +16,10 @@ plugins:
   - jekyll-feed
 
 locale: pl
+lunr:
+  search_within_pages: true
+
+# default values for front matter 
 defaults:
   # _pages
   - scope:
@@ -44,6 +28,25 @@ defaults:
     values:
       layout: single
       show_date: true
+
+
+jekyll_compose:
+  default_front_matter:
+    posts:
+      layout: single
+      sitemap: false
+logo: "/assets/images/masthead_logo.svg"
+atom_feed:
+  hide: true
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Gauss-PWr"
+    - label: "Facebook"
+      icon: "fab fa-facebook"
+      url: "https://www.facebook.com/gausspwr/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
