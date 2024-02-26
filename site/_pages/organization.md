@@ -7,10 +7,10 @@ permalink: /board/
 
 #### Zarząd koła:
 
-*   Urszula Spik (prezes koła)
-*   Klaudia Jaworek (wiceprezes koła)
+*   Urszula Spik (prezeska koła)
+*   Klaudia Jaworek (wiceprezeska koła)
 *   Marcin Kostrzewa (wiceprezes koła)
 
 #### Regulamin koła:
 
-[Regulamin Gaussa](http://gauss.im.pwr.wroc.pl/wp-content/uploads/2017/03/regulamin_gauss.pdf)
+[Regulamin Gaussa]({{ site.url }}/assets/documents/regulamin_gauss.pdf)

@@ -19,7 +19,7 @@ locale: pl
 lunr:
   search_within_pages: true
 
-# default values for front matter 
+# default values for front matter in pages (they are added automatically, no need to write them by hand)
 defaults:
   # _pages
   - scope:
@@ -29,12 +29,12 @@ defaults:
       layout: single
       show_date: true
 
-
+# default front matter values for the jekyll compose plugin
 jekyll_compose:
   default_front_matter:
-    posts:
+    projects:
       layout: single
-      sitemap: false
+      
 logo: "/assets/images/masthead_logo.svg"
 atom_feed:
   hide: true
@@ -47,6 +47,19 @@ footer:
     - label: "Facebook"
       icon: "fab fa-facebook"
       url: "https://www.facebook.com/gausspwr/"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/KnGauss"
+    - label: "Wydział"
+      icon: "fas fa-university"
+      url: "https://wmat.pwr.edu.pl/"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -5080,6 +5080,23 @@ body {
 }
 html {
   font-size: 1.1em;
+  background-image: url("../images/background.svg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+::selection {
+  color: #fff;
+  background: #f21368;
+}
+
+.masthead {
+  border-bottom: none;
+}
+
+.greedy-nav {
+  background: none;
 }
 
 /*# sourceMappingURL=main.css.map */

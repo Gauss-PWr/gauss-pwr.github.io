@@ -1,15 +1,16 @@
 ---
-title: "KN Gauss"
+title: " "
 permalink: /
-
-excerpt: "Koło naukowe Politechniki Wrocławskiej zrzeszające blablab"
+author: KN
+author_profile: true
+excerpt: <br><br>
 header:
-  overlay_image: /assets/images/dice-red.jpg
+  overlay_image: /assets/images/gaussheader_transparent.svg
   image_description: "Zdjęcie kostek do gry"
-  overlay_filter: 0.3
-  actions:
-    - label: "O nas"
-      url: "/"
+  # overlay_filter: 0.3
+  # actions:
+  #   - label: "O nas"
+  #     url: "/"
 
 ---
 ## O nas
