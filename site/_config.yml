@@ -1,11 +1,10 @@
 title: Koło Naukowe Statystyki Matematycznej Gauss
 email: gauss@pwr.wroc.pl
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- 
   Koło Naukowe PWr
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gauss.im.pwr.wroc.pl/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "" 
+url: "https://gauss-pwr.github.io/" 
+github_username: Gauss-PWr
 
 # Build settings
 theme: "minimal-mistakes-jekyll"

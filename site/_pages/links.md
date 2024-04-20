@@ -2,7 +2,7 @@
 title: "Linki"
 permalink: /links/
 toc: true
-
+toc_label: "Spis treści"
 ---
 *   [Niezależne Ogólnopolskie Mistrzostwa w Analizie Danych](http://nomad.im.pwr.wroc.pl/)
 *   [Ogólnopolska Matematyczna Konferencja Studentów](http://omatko.im.pwr.wroc.pl)
