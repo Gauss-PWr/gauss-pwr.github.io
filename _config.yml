@@ -3,7 +3,7 @@ email: gauss@pwr.wroc.pl
 description: >- 
   Koło Naukowe PWr
 baseurl: /site
-url: https://gauss-pwr.github.io
+url: "https://gauss-pwr.github.io" 
 github_username: Gauss-PWr
 repository: Gauss-PWr/gauss-pwr.github.io
 
