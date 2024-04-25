@@ -2,9 +2,10 @@ title: Koło Naukowe Statystyki Matematycznej Gauss
 email: gauss@pwr.wroc.pl
 description: >- 
   Koło Naukowe PWr
-baseurl: 
-url: "https://gauss-pwr.github.io" 
+baseurl: /site
+url: https://gauss-pwr.github.io
 github_username: Gauss-PWr
+repository: Gauss-PWr/gauss-pwr.github.io
 
 # Build settings
 theme: "minimal-mistakes-jekyll"
